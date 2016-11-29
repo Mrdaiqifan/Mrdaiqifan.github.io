@@ -1,0 +1,235 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.body,html
+{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size:1.2em;
+	line-height:25px;
+	font-family:"Lucida Grande", "Helvetica Neue", Helvetica, "Microsoft YaHei", Arial, sans-serif;
+}
+.page{
+	margin-top: -2%;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.page4{
+	z-index: 1;
+}
+.bg{
+	width: 100%;
+}
+.bgl{
+	position: absolute;top:0;
+	left: 0;
+	z-index: 10; 
+	width:100%;
+	animation:myfirst 1s infinite;
+-moz-animation:myfirst 1s infinite; /* Firefox */
+-webkit-animation:myfirst 1s infinite; /* Safari and Chrome */
+-o-animation:myfirst 1s infinite; /* Opera */
+	
+}
+#video{
+	width: 100%;
+}
+.page3 img{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+div{
+	border: 0;
+}
+.gf1{
+	position: absolute;
+	top: 73%;
+	left: 8%;
+	z-index: 10;
+	width: 20%;
+	animation:mytwo 1.5s infinite ease;
+-moz-animation:mytwo 1.5s infinite ease; /* Firefox */
+-webkit-animation:mytwo 1.5s infinite ease; /* Safari and Chrome */
+-o-animation:mytwo 1.5s infinite ease; /* Opera */
+}
+.gf2{
+	position: absolute;top: 73%;left: 38%;z-index: 10;width: 20%;
+	animation:mytwo 2s infinite;
+-moz-animation:mytwo 2s infinite; /* Firefox */
+-webkit-animation:mytwo 2s infinite; /* Safari and Chrome */
+-o-animation:mytwo 2s infinite; /* Opera */
+}
+.gf3{
+	position: absolute;top: 73%;left: 68%;z-index: 10;width: 20%;
+	animation:mytwo 2.5s infinite;
+-moz-animation:mytwo 2.5s infinite; /* Firefox */
+-webkit-animation:mytwo 2.5s infinite; /* Safari and Chrome */
+-o-animation:mytwo 2.5s infinite; /* Opera */
+}
+
+@keyframes myfirst
+{	0%{
+		opacity: 0;
+	}
+	20%{
+		opacity: 0.3;
+	}
+	50%{
+		opacity: 1;
+	}
+	60%{
+		opacity: 2;
+	}
+	80%{
+		opacity: 0.3;
+	}
+	100%{
+		opacity: 0;
+	}}
+
+@-moz-keyframes myfirst 
+{	0%{
+		opacity: 0;
+	}
+	20%{
+		opacity: 0.3;
+	}
+	50%{
+		opacity: 1;
+	}
+	60%{
+		opacity: 1;
+	}
+	80%{
+		opacity: 0.3;
+	}
+	100%{
+		opacity: 0;
+	}}
+
+@-webkit-keyframes myfirst
+{	0%{
+		opacity: 0;
+	}
+	20%{
+		opacity: 0.3;
+	}
+	50%{
+		opacity: 1;
+	}
+	60%{
+		opacity: 1;
+	}
+	80%{
+		opacity: 0.3;
+	}
+	100%{
+		opacity: 0;
+	}}
+
+@-o-keyframes myfirst
+{	0%{
+		opacity: 0;
+	}
+	20%{
+		opacity: 0.3;
+	}
+	50%{
+		opacity: 1;
+	}
+	60%{
+		opacity: 1;
+	}
+	80%{
+		opacity: 0.3;
+	}
+	100%{
+		opacity: 0;
+	}}
+
+@keyframes mytwo
+{	0%{
+		opacity: 0;
+	}
+	20%{
+		opacity: 0.3;
+	}
+	50%{
+		opacity: 1;
+	}
+	60%{
+		opacity: 2;
+	}
+	80%{
+		opacity: 0.3;
+	}
+	100%{
+		opacity: 0;
+	}}
+
+@-moz-keyframes mytwo 
+{	0%{
+		opacity: 0;
+	}
+	20%{
+		opacity: 0.3;
+	}
+	50%{
+		opacity: 1;
+	}
+	60%{
+		opacity: 1;
+	}
+	80%{
+		opacity: 0.3;
+	}
+	100%{
+		opacity: 0;
+	}}
+
+@-webkit-keyframes mytwo
+{	0%{
+		opacity: 0;
+	}
+	20%{
+		opacity: 0.3;
+	}
+	50%{
+		opacity: 1;
+	}
+	60%{
+		opacity: 1;
+	}
+	80%{
+		opacity: 0.3;
+	}
+	100%{
+		opacity: 0;
+	}}
+
+@-o-keyframes mytwo
+{	0%{
+		opacity: 0;
+	}
+	20%{
+		opacity: 0.3;
+	}
+	50%{
+		opacity: 1;
+	}
+	60%{
+		opacity: 1;
+	}
+	80%{
+		opacity: 0.3;
+	}
+	100%{
+		opacity: 0;
+	}}
